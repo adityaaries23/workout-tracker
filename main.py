@@ -34,7 +34,7 @@ today_date = datetime.now().strftime("%d/%m/%Y")
 now_time = datetime.now().strftime("%X")
 
 header_sheety = {
-    "Authorization": "Basic YWRpZGl0eWE1MjpkcWpud2RqMmoxMmU="
+    "Authorization": "Basic Your_Sheety_Token"
 }
 
 for i in result["exercises"]:
